@@ -12,6 +12,7 @@ HTML5 – Structure of the website
 CSS3 – Styling and layout design
 Bootstrap – Responsive grid system and components
 JavaScript – Interactivity and dynamic elements
+
 🌐 Live Demo
 Check out the live version of the portfolio here:
 
