@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Showcase - Portfolio Website</title>
+  <link 
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+    rel="stylesheet" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css' />
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- imp! Header Section -->
+  <header>
+    <!-- imp! Section-1 (Navbar Section) -->
+    <nav class="navbar navbar-expand-lg dark-black p-5 position-fixed top-0 w-100 z-3">
+      <div class="container" >
+        <a href="#"><img src="./assets/img/Logo/Main-Logo.webp" alt="Main-Logo" width="150"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+        <div class="navbar-collapse collapse mt-3 mt-lg-0" id="navbarToggler">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item  me-lg-5"><a href="#hero-section" class="nav-link text-white">Home</a></li>
+            <li class="nav-item me-lg-5"><a href="#about-section" class="nav-link text-white">About</a></li>
+            <li class="nav-item me-lg-5"><a href="#services-section" class="nav-link text-white">Services</a></li>
+            <li class="nav-item me-lg-5"><a href="#portfolio" class="nav-link text-white">Portfolio</a></li>
+            <li class="nav-item me-lg-5"><a href="#contact-us" class="nav-link text-white">Contact</a></li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <button class="btn-light rounded-pill px-5"><a
+                  class="text-dark p-3 px-0 d-inline-block text-decoration-none h4"
+                  href="./assets/sample-resume/Resume-Sample.pdf" download>My CV</a></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- imp! Main Section -->
+  <main>
+    <!-- imp! Section-2 (Hero Section) -->
+    <section id="hero-section" class="hero-section mt-100 container-fluid position-relative">
+      <div class="hero-section-overlay position-absolute"></div>
+      <div class="container d-flex align-items-center flex-column">
+        <h1 class="text-white  text-center mt-sm-5">I am Hemadharshini Ravi</h1>
+        <h2 class="text-white mt-4 mt-lg-5 fw-light text-center"><span class="typing-text"></span></h2>
+      </div>
+    </section>
+    <!-- imp! Section-3 (About Section) -->
+    <section id="about-section" class="about-section container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="d-xl-flex gap-5">
+              <img src="./assets/img/About-Section/About-me.png" alt="About-Man" width="200" height="225">
+              <div class="profile-description">
+                <p class="mb-4 mt-5 mt-xl-0"><span class="fw-bold grey-clr">Name:</span> Hemadharshini Ravi</p>
+                <p class="mb-4"><span class="fw-bold grey-clr">Profile:</span> Frontend Developer</p>
+                <p class="mb-4"><span class="fw-bold grey-clr">Email:</span> darshinihema2102@gmail.com</p>
+                <p class="mb-4"><span class="fw-bold grey-clr">Phone:</span> 7092389282</p>
+              </div>
+            </div>
+            <div class="skills-main-div mt-5 mb-2">
+              <h3 class="fw-bold mb-5">Skills</h3>
+              <div class="skills-div mt-4">
+                <div class="mb-2 d-flex justify-content-between">
+                  <span>HTML</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%;"></div>
+                </div>
+              </div>
+              <div class="skills-div mt-4">
+                <div class="mb-2 d-flex justify-content-between">
+                  <span>CSS</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;"></div>
+                </div>
+              </div>
+              <div class="skills-div mt-4">
+                <div class="mb-2 d-flex justify-content-between">
+                  <span>JavaScript</span>
+                  <span>50%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 50%;"></div>
+                </div>
+              </div>
+              <div class="skills-div mt-4">
+                <div class="mb-2 d-flex justify-content-between">
+                  <span>React</span>
+                  <span>0%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 0%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 about-me-description mt-5 mt-lg-0 pt-4 pt-lg-0">
+            <h2 class="fw-600">About me</h2>
+            <div class="blue-line"></div>
+            <p class="mt-4 pt-2 segoe-font"><p>I am Hemadharshini R, a motivated MCA student with a strong foundation in Computer Applications.
+               As the first graduate girl in my family, I am driven by curiosity, perseverance, and a passion for learning.</p>
+            <p class="segoe-font">My skills include Python programming, Data Analytics, and Web Development. 
+              I have worked on projects like attendance and student progress tracking systems, 
+              which enhanced my technical and problem-solving abilities.</p>
+            <p class="segoe-font">I aim to grow as a skilled software developer while contributing innovative, real-world solutions. 
+              I believe in teamwork, adaptability, and continuous growth to achieve both personal and professional goals.</p>  
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- imp! Section-4 (Resume Section) -->
+    <section id="resume-section" class="resume-section container-fluid">
+      <div class="container mt-100">
+        <h2 class="text-center fw-600 dark-black-text">Resume</h2>
+        <div class="blue-line mx-auto"></div>
+        <p class="text-center segoe-font fw-600 mt-5 mb-3 mb-sm-5 pb-sm-5">A quick glance at my journey, skills, and experiences that shape who I am as a professional!</p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-evenly">
+          <div class="col-lg-5">
+            <h4 class="resume-title dark-black-text fw-600 my-5 my-sm-3">Summary</h4>
+            <div class="resume-item mt-5 ps-5">
+              <h5 class="text-uppercase grey-clr">Hema Dharshini</h5>
+              <p class="mt-lg-3 segoe-font">
+                Self-taught Frontend Developer and MCA fresher with a passion for creating responsive, user-friendly web experiences, 
+                with added skills in PowerBI for data analysis and visualization.
+              </p>
+              <ul>
+                <li class="p-font-size dark-black-text segoe-font mb-2">243 North Street, Thuraiyur-621010, Trichy</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">7092389282</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">darshinihema2102@gmail.com</li>
+              </ul>
+            </div>
+            <h4 class="resume-title dark-black-text fw-600 my-5">Education</h4>
+            <div class="resume-item ps-5">
+              <h5 class="grey-clr mb-3">MASTER OF COMPUTER APPLICATION</h5>
+              <h6 class="year mb-4">2024 - 2026</h6>
+              <p class="mt-lg-3 fw-600 segoe-font"><em>Dhanalakshmi Srinivasan Engineering College, Perambalur</em>
+              </p>
+              <p class="mt-lg-3 segoe-font mb-0">My academic journey has honed my technical expertise, analytical abilities, and problem-solving skills. 
+                I am motivated to leverage this knowledge to develop practical solutions and contribute to meaningful technology projects.
+              </p>
+            </div>
+            <div class="resume-item ps-5 pt-5">
+              <h5 class="grey-clr mb-3">BACHELOR OF COMPUTER APPLICATION</h5>
+              <h6 class="year mb-4">2021 - 2024</h6>
+              <p class="mt-lg-3 fw-600 segoe-font"><em>Cauvery College For Women, Trichy</em>
+              </p>
+              <p class="mt-lg-3 segoe-font">Developed foundational technical and problem-solving skills in programming, web development, 
+                and data analysis through undergraduate projects and coursework.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <h4 class="resume-title dark-black-text fw-600 my-5 my-lg-3">Professional Experience</h4>
+            <div class="resume-item ps-5 mt-5">
+              <h5 class="grey-clr mb-3">Web Development Intern at Esoft IT Solution</h5>
+              <h6 class="year mb-4">2024 - 2025</h6>
+              <p class="mt-lg-3 segoe-font fw-600"><em>1st Cross, Thillai Nagar, Trichy</em>
+              </p>
+              <ul class="mb-0">
+                <li class="p-font-size dark-black-text segoe-font mb-2">Developed dynamic and responsive web pages using HTML, CSS, JavaScript, and PHP to enhance user experience.</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">Implemented and managed MySQL databases for efficient data storage, retrieval, and website functionality.</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">Contributed to backend development, creating interactive features and integrating database-driven content.</li>
+                <li class="p-font-size dark-black-text segoe-font mb-0">Strengthened problem-solving and debugging skills by working on real-world projects in a collaborative environment.</li>
+              </ul>
+            </div>
+            <div class="resume-item resume-item-1 ps-5 pt-5">
+              <h5 class="grey-clr mb-3">Freelance WordPress Developer</h5>
+              <h6 class="year mb-4">2025 - Present</h6>
+              <p class="mt-lg-3 fw-600 segoe-font"><em>Remote Work - Serving Clients</em>
+              </p>
+              <ul class="mb-0">
+                <li class="p-font-size dark-black-text segoe-font mb-2">Design and develop custom WordPress websites, ensuring responsive and user-friendly interfaces.</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">Integrate and configure themes, plugins, and CMS features to deliver fully functional websites.</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">Optimize website content, performance, and SEO, enhancing usability and search visibility.</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">Collaborate with clients to understand requirements, provide timely solutions, and offer ongoing support.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- imp! Section-5 (Services-Section) -->
+    <section id="services-section" class="services-section container-fluid">
+      <div class="container mt-100">
+        <h2 class="text-center fw-600 dark-black-text">Services</h2>
+        <div class="blue-line mx-auto"></div>
+        <p class="text-center segoe-font mt-5 mb-3 mb-sm-5 pb-sm-5 fw-600">Creating modern websites, apps, and designs that are responsive, reliable, and tailored to client needs!</p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-evenly">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <h4 class="mt-5 fw-600">Web Development</h4>
+              <p class="segoe-font">I design and develop responsive, user-friendly websites tailored to client needs. 
+                My focus is on delivering clean, secure, and modern web solutions that enhance online presence and performance!</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-tower-broadcast"></i>
+              </div>
+              <h4 class="mt-5 fw-600">Social Media Posts</h4>
+              <p class="segoe-font">I design engaging and visually appealing social media posts that capture attention. 
+                My designs are tailored to boost online presence and audience interaction!</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-person-chalkboard"></i>
+              </div>
+              <h4 class="mt-5 fw-600">Creative Works</h4>
+              <p class="segoe-font">I bring unique ideas to life through innovative and artistic designs. 
+                My creative approach ensures every project stands out with originality and style!</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly my-sm-5">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-file-contract"></i>
+              </div>
+              <h4 class="mt-5 fw-600">Graphic Design</h4>
+              <p class="segoe-font">I create impactful graphics that communicate ideas effectively and align with brand identity. 
+                From logos to marketing materials, my designs deliver clarity and creativity!</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-calendar"></i>
+              </div>
+              <h4 class="mt-5 fw-600">App Design</h4>
+              <p class="segoe-font">I craft mobile app designs that are visually appealing and user-centered. 
+                Every layout is optimized for seamless navigation and performance across devices!</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-comment-dots"></i>
+              </div>
+              <h4 class="mt-5 fw-600">UI Design</h4>
+              <p class="segoe-font">I design clean, modern, and intuitive user interfaces that enhance usability and create engaging digital experiences. 
+                My focus is on blending aesthetics with functionality!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- imp! Section-6 (Acheivements Section) -->
+    <section id="achievements" class="acheivement-section container-fluid">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-around">
+          <div
+            class="col-lg-2 col-md-6 col-12 d-flex flex-column justify-content-center align-items-center mb-35">
+            <div class="d-flex">
+              <span data-purecounter-start="0" data-purecounter-end=""  class="counter"></span>
+              <span>+</span>
+            </div>
+            <p class="text-center mb-0 text-white">Clients</p>
+          </div>
+          <div
+            class="col-lg-2 col-md-6 col-12 d-flex flex-column justify-content-center align-items-center mb-35">
+            <div class="d-flex">
+              <span class="counter" data-purecounter-start="0" data-purecounter-end="3"></span>
+              <span>+</span>
+            </div>
+            <p class="text-center mb-0 text-white">Projects</p>
+          </div>
+          <div
+            class="col-lg-2 col-md-6 col-12 d-flex flex-column justify-content-center align-items-center mb-35">
+            <div class="d-flex">
+              <span class="counter" data-purecounter-start="0" data-purecounter-end="1000"></span>
+              <span>+</span>
+            </div>
+            <p class="text-center mb-0 text-white">Hours Of Support</p>
+          </div>
+          <div
+            class="col-lg-2 col-md-6 col-12 d-flex flex-column justify-content-center align-items-center mb-35">
+            <div class="d-flex">
+              <span class="counter" data-purecounter-start="0" data-purecounter-end="0"></span>
+              <span>+</span>
+            </div>
+            <p class="text-center mb-0 text-white">Awards</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- imp! Section-7 (Portfolio Section) -->
+    <section id="portfolio" class="portfolio-section container-fluid">
+      <div class="container mt-100">
+        <h2 class="text-center fw-600 dark-black-text">Projects Done</h2>
+        <div class="blue-line mx-auto"></div>
+        <p class="text-center segoe-font mt-5 mb-3 mb-sm-5 pb-sm-5 fw-600">A project focused on transforming ideas into practical applications with clear, impactful outcomes!</p>
+      </div>
+      <div class="container projects-main-div">
+        <div class="project-div pt-3">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-12 pe-4 mb-5 mb-sm-0">
+              <img src="./assets/img/Projects-Done-Section/Apps/App-1.webp" alt="App-1" class="w-100">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 pe-4">
+              <img src="./assets/img/Projects-Done-Section/Apps/App-2.webp" alt="App-2" class="w-100">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 pe-4 mt-5 mt-lg-0">
+              <img src="./assets/img/Projects-Done-Section/Apps/App-3.webp" alt="App-3" class="w-100">
+            </div>
+          </div>
+          <div class="row justify-content-center mt-lg-5 pt-lg-3">
+            <div class="col-lg-4 col-md-6 col-12 pe-4 mb-5 mb-sm-0">
+              <img src="./assets/img/Projects-Done-Section/Mockup/Mockup-1.webp" alt="Mockup-1" class="w-100">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 pe-4">
+              <img src="./assets/img/Projects-Done-Section/Mockup/Mockup-2.webp" alt="Mockup-2" class="w-100">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 pe-4 mt-5 mt-lg-0">
+              <img src="./assets/img/Projects-Done-Section/Mockup/Mockup-3.webp" alt="Mockup-3" class="w-100">
+            </div>
+          </div>
+          <div class="row justify-content-center mt-lg-5 pt-lg-3">
+            <div class="col-lg-4 col-md-6 col-12 pe-4 mb-5 mb-sm-0">
+              <img src="./assets/img/Projects-Done-Section/Websites/Website-1.webp" alt="Website-1" class="w-100">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 pe-4">
+              <img src="./assets/img/Projects-Done-Section/Websites/Website-2.webp" alt="Website-2" class="w-100">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 pe-4 mt-5 mt-lg-0">
+              <img src="./assets/img/Projects-Done-Section/Websites/Website-3.webp" alt="Website-3" class="w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- imp! Section-8 (FAQ Section) -->
+    <section id="faq" class="faq-section container-fluid">
+      <div class="container mt-100">
+        <div class="row justify-content-center gap-5">
+          <div class="col-12 col-md-3">
+            <h2 class="fw-light text-center text-lg-start">Frequently Asked</h2>
+            <h2 class="fw-bold text-center text-lg-start">Questions</h2>
+          </div>
+          <div class="col-12 col-md-8 mt-5 mt-md-0">
+            <div class="accordion" id="accordionMain">
+              <div class="accordion-item mb-5">
+                <button class="accordion-button fw-600 p-5 py-4 collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne">
+                  1. Do you have any real-time project experience?
+                </button>
+                <div id="collapseOne" class="accordion-collapse collapse ps-5" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                    <p class="segoe-font">
+                      Yes, I have developed academic and personal projects such as an online attendance system and 
+                      a student progress tracker, focusing on secure authentication, database integration, and data visualization.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-5">
+                <button class="accordion-button fw-600 p-5 py-4 collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo">
+                  2. Which tools and technologies do you work with most often?
+                </button>
+                <div id="collapseTwo" class="accordion-collapse collapse ps-5" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                    <p class="segoe-font">
+                      I regularly work with Bootstrap for responsive design, Chart.js for data visualization, MySQL and PHP for backend development,
+                       and Power BI for basic data analysis. For development and version control, I use VS Code, XAMPP/WAMP, and Git..
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-5">
+                <button class="accordion-button fw-600 p-5 py-4 collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree">
+                  3. What makes you different as a fresher?
+                </button>
+                <div id="collapseThree" class="accordion-collapse collapse ps-5" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                    <p class="segoe-font">
+                      I am the first graduate girl in my family, highly self-motivated, and constantly learning new tools and frameworks to improve my skills.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-5">
+                <button class="accordion-button fw-600 p-5 py-4 collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour">
+                  4. Do you have experience with teamwork and collaboration?
+                </button>
+                <div id="collapseFour" class="accordion-collapse collapse ps-5" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                    <p class="segoe-font">
+                     Yes, through academic projects and team activities, 
+                     I have gained experience in collaboration, problem-solving, and effective communication.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-5">
+                <button class="accordion-button fw-600 p-5 py-4 collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive">
+                  5. Can you handle both frontend and backend tasks?
+                </button>
+                <div id="collapseFive" class="accordion-collapse collapse ps-5" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                    <p class="segoe-font">
+                      Yes, I am comfortable with both frontend design (HTML, CSS, JavaScript, Bootstrap) and backend logic (PHP, MySQL),
+                       making me capable of building complete web solutions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- imp! Section-9 (Contact Section) -->
+     <section id="contact-us" class="contact-section container-fluid">
+      <div class="container mt-100">
+        <h2 class="text-center fw-600 dark-black-text">Contact Us</h2>
+        <div class="blue-line mx-auto"></div>
+        <p class="text-center segoe-font mt-5 mb-4 pb-5 fw-600">Lets connect with me — I am open to opportunities, collaborations, and freelance projects!</p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-8 col-12">
+            <form class="bg-white rounded p-3 py-5 p-sm-5 text-xl-center" id="contact-form">
+              <input type="text" class="form-control form-control-lg mb-5 p-3" required placeholder="Enter your name" id="full_name">
+              <input type="email" class="form-control form-control-lg mb-5 p-3" required placeholder="Enter your email" id="email_id">
+              <textarea class="form-control form-control-lg mb-5" rows="8" placeholder="Your feedback/suggestions" required id="message"></textarea>
+              <button type="submit" class="btn btn-block submit-btn rounded-pill">Message</button>
+              <p class="thank-you-msg mt-5 text-center">Thank you for submitting the form!!!</p>
+            </form>
+          </div>
+        </div>
+      </div>
+     </section>
+  </main>
+  <!-- imp! Section-10 (Footer Section) -->
+  <footer id="footer" class="footer-section container-fluid mt-100">
+    <p class="copyright-txt text-center text-sm-start mb-5 text-white">© Copyright <strong> <a href="https://github.com/hemaxplore" target="_blank" class="text-decoration-none text-white">Hemadharshini</a></strong> All Rights Reserved</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/heerrshah.__/?next=%2F" class="text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/hemadharshini21/" class="text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" class="text-decoration-none"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" class="text-decoration-none"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/app.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+  <script>
+    let typeText = new Typed('.typing-text',{
+      strings: ['Web Designer', 'Front End Developer', 'Data Analyst'],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 500,
+      startDelay: 750
+    })
+  </script>
+  <script>
+    new PureCounter({
+      selector: '.counter'
+    })
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+        emailjs.init({
+        publicKey: "l3MWMMIDej9ZxLYts",
+        });
+    })();
+    </script>
+</body>
+
+</html>
